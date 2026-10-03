@@ -1,0 +1,79 @@
+{
+  "months": [
+    {
+      "month": "2025-04",
+      "current_mae": 112.19694334924257,
+      "lag_mae": 108.06931521062462,
+      "calibration_mae": 97.61066611330152,
+      "both_mae": 97.34230753268314,
+      "calibration_factor": 1.0235258148470108,
+      "both_factor": 1.0232288410353167
+    },
+    {
+      "month": "2025-05",
+      "current_mae": 101.17188276002443,
+      "lag_mae": 91.24178302462853,
+      "calibration_mae": 112.37025239161409,
+      "both_mae": 99.59536535721556,
+      "calibration_factor": 1.0220740203209107,
+      "both_factor": 1.004843521714554
+    },
+    {
+      "month": "2025-06",
+      "current_mae": 151.42412711687223,
+      "lag_mae": 141.7407401212628,
+      "calibration_mae": 148.43265523729877,
+      "both_mae": 146.64842358352496,
+      "calibration_factor": 1.0069618156834972,
+      "both_factor": 1.0028019264855967
+    },
+    {
+      "month": "2025-07",
+      "current_mae": 140.57140879478828,
+      "lag_mae": 146.22537255700325,
+      "calibration_mae": 119.83199918566775,
+      "both_mae": 134.07110749185668,
+      "calibration_factor": 1.0189257630313493,
+      "both_factor": 1.0187096707664722
+    },
+    {
+      "month": "2025-08",
+      "current_mae": 90.02838621559151,
+      "lag_mae": 86.52824542971213,
+      "calibration_mae": 97.79305736499265,
+      "both_mae": 86.13711494011346,
+      "calibration_factor": 0.9833516819533071,
+      "both_factor": 0.9805042679738535
+    },
+    {
+      "month": "2025-09",
+      "current_mae": 97.17845824411135,
+      "lag_mae": 101.73204282655247,
+      "calibration_mae": 96.97145824411136,
+      "both_mae": 102.65383725910065,
+      "calibration_factor": 0.9983919213971193,
+      "both_factor": 0.9989357804939114
+    },
+    {
+      "month": "2025-10",
+      "current_mae": 115.49600041211622,
+      "lag_mae": 109.57879043890377,
+      "calibration_mae": 104.73609519884607,
+      "both_mae": 136.10000824232435,
+      "calibration_factor": 1.0213120908181428,
+      "both_factor": 1.0228656795413804
+    }
+  ],
+  "mean_mae": {
+    "current": 115.4381724132495,
+    "lag": 112.15946994409823,
+    "calibration": 111.10659767654747,
+    "both": 114.64973777240269
+  },
+  "winner": "calibration",
+  "calibrated_submission": {
+    "factor": 1.021736525424003,
+    "december_min": 811.1,
+    "december_max": 837.97
+  }
+}

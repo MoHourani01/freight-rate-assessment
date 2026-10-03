@@ -1,0 +1,60 @@
+{
+  "holdout": "Train on 2025-01-01 through 2025-09-30. Score 2025-10-01 through 2025-10-31.",
+  "holdout_rows": 4853,
+  "final_fit_rows": 48000,
+  "selected_features": "core",
+  "baseline": {
+    "mae": 147.4278772331393,
+    "rmse": 653.6703743685025,
+    "mape": 0.08399789944639885,
+    "median_ae": 69.78003535350263,
+    "r2": 0.8171248917607807,
+    "pct_over_25": 0.042035854110859264,
+    "pct_over_50": 0.026169379765093755
+  },
+  "models": {
+    "core": {
+      "mae": 115.49600041211622,
+      "rmse": 651.110493778031,
+      "mape": 0.05305056874332312,
+      "median_ae": 38.5300000000002,
+      "r2": 0.8185544250694848,
+      "pct_over_25": 0.016484648670925202,
+      "pct_over_50": 0.016484648670925202
+    },
+    "core_plus_market": {
+      "mae": 128.15734391098292,
+      "rmse": 652.7445175964918,
+      "mape": 0.061069446687214604,
+      "median_ae": 49.840000000000146,
+      "r2": 0.8176425723979315,
+      "pct_over_25": 0.016484648670925202,
+      "pct_over_50": 0.016484648670925202
+    }
+  },
+  "selected_holdout": {
+    "mae": 115.49600041211622,
+    "rmse": 651.110493778031,
+    "mape": 0.05305056874332312,
+    "median_ae": 38.5300000000002,
+    "r2": 0.8185544250694848,
+    "pct_over_25": 0.016484648670925202,
+    "pct_over_50": 0.016484648670925202
+  },
+  "december_min": 787.49,
+  "december_max": 812.02,
+  "december_mean": 799.0777419354839,
+  "new_validation_cities": [
+    "Allentown",
+    "Charlotte",
+    "Chicago",
+    "Jackson",
+    "Knoxville",
+    "Laredo",
+    "Norfolk",
+    "San Diego"
+  ],
+  "missing_weight_train": 300,
+  "negative_weight_train": 292,
+  "missing_market_index_train": 374
+}
